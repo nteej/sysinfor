@@ -4,7 +4,7 @@
 
 # ```python
 import unittest
-from sysinfo.info import get_system_info
+from sysinfor.info import get_system_info
 
 class TestSystemInfo(unittest.TestCase):
 
