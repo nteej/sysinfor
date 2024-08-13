@@ -1,3 +1,4 @@
 /build
 /dist
 /sysinfor.egg-info
+/__pycache__
