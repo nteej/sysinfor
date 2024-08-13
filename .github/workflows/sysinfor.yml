@@ -70,6 +70,6 @@ jobs:
           python setup.py sdist bdist_wheel
 
       - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@v1.10.0
+        uses: pypa/gh-action-pypi-publish@v0.0.1
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
