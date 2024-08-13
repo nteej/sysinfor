@@ -10,7 +10,7 @@ class TestSystemInfo(unittest.TestCase):
 
     def test_system_info(self):
         info = get_system_info()
-        self.assertIn("System", info)
+        self.assertIn("Kernel", info)
         self.assertIn("Release", info)
 
 if __name__ == "__main__":

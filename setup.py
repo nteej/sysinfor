@@ -14,7 +14,7 @@ A package of ***sysinfor*** is use to display system information.Generally it av
 """
 setup(
     name="sysinfor",
-    version="0.0.1",
+    version="0.0.2",
     description="A package of ***sysinfor*** is use to display system information.",
     long_description=LONG_DESCRIPTION,
     author="Tharanga Jayasinghe",

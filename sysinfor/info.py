@@ -15,20 +15,23 @@ System Information:
 """
 
 import platform
+import sys
 import psutil
 import click
 import datetime
 
 def get_system_info():
     info = {
-        "System": platform.system(),
+        "Kernel": platform.system(),
         "Node Name": platform.node(),
         "Release": platform.release(),
         "Version": platform.version(),
-        "Machine": platform.machine(),
+        "Processor": platform.processor(),
+        "Arch": platform.machine(),
         "Boot Time": datetime.datetime.fromtimestamp(psutil.boot_time()).strftime("%Y-%m-%d %H:%M:%S"),
         "Physical CPU Count": psutil.cpu_count(logical=False),
         "Memory": f"{round(psutil.virtual_memory().total / (1024 ** 3))} GB",
+        "Python Version":sys.version,
     }
     return info
 
