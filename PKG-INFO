@@ -1,0 +1,38 @@
+Metadata-Version: 0.1
+Name: sysinfor
+Version: 0.0.4
+Summary: System technical information provider
+Home-page: https://github.com/nteej/sysinfor
+Author: Tharanga Jayasinghe
+Author-email: nteeje@gmail.com
+License: MIT
+Description: 
+        A package of **sysinfor** is use to display system information.Generally it available bellow information on initial release.
+
+        - OS Kernel
+        - Node Name(user)
+        - OS Release
+        - OS Version
+        - Machine Architecture
+        - Processor
+        - Boot Time
+        - CPU Count
+        - Username
+        - Physical Memory
+        - Python Version
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities

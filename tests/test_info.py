@@ -4,12 +4,12 @@
 
 # ```python
 import unittest
-from sysinfor.info import get_system_info
+from sysinfor import getsysinfo
 
 class TestSystemInfo(unittest.TestCase):
 
     def test_system_info(self):
-        info = get_system_info()
+        info = getsysinfo()
         self.assertIn("Kernel", info)
         self.assertIn("Release", info)
 
